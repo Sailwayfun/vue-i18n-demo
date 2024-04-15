@@ -6,7 +6,7 @@ const messages = {
             hello: 'hello world'
         }
     },
-    ja: {
+    jp: {
         message: {
             hello: 'こんにちは、世界'
         }

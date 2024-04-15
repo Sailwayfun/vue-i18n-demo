@@ -1,11 +1,13 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
-const { t } = useI18n()
+import LocaleSelect from './components/LocaleSelect.vue'
+const { t, locale } = useI18n({ useScope: 'global' })
 </script>
 
 <template>
   <main>
     <h1>{{ t('message.hello') }}</h1>
+    <LocaleSelect v-model="locale" />
   </main>
 </template>
 
