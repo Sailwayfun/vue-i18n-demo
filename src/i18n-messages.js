@@ -4,16 +4,25 @@ const messages = {
     en: {
         message: {
             hello: 'hello world'
+        },
+        test: {
+            mojo: 'test'
         }
     },
     jp: {
         message: {
             hello: 'こんにちは、世界'
+        },
+        test: {
+            mojo: 'テスト'
         }
     },
     zh_tw: {
         message: {
             hello: '你好，世界'
+        },
+        test: {
+            mojo: '測試'
         }
     }
 };
